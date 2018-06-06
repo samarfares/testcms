@@ -50,7 +50,6 @@ def main(event, context):
                     userToGroupData = (user_id, row[1])
                     cursor.execute(addUserToGroup, userToGroupData)
                     cnx.commit()
-                    return "logged in succefully"
             cnx.commit()
         else:
             return "The user is already exists"
