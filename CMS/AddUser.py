@@ -16,7 +16,7 @@ def validateEmail(email):
 
 
 def alreadyExists(username):
-    sql = "SELECT * FROM user WHERE username ='%s'"%username
+    sql = "SELECT * FROM user WHERE username ='%s'" % username
     cursor.execute(sql)
     return cursor.fetchall()
 
@@ -35,29 +35,29 @@ def main(event, context):
                         event["is_group_admin"], event["type"])
             cursor.execute(addUser, userData)
             cnx.commit()
-            addUserToGroup = ("INSERT INTO user_group_user "
-                              "(userId,userGroupId) "
-                              "VALUES (%d, %d")
+
             user_id = cursor.lastrowid
             # execute the SQL query
             cursor.execute("select name,user_group_id From user_group")
             # fetch the data
             data = cursor.fetchall()
-            for row in data:
-                if event[row[0]] == None:
-                    continue
-                else:
-                    userToGroupData = (user_id, row[1])
-                    cursor.execute(addUserToGroup, userToGroupData)
-                    cnx.commit()
-            cnx.commit()
-        else:
-            return "The user is already exists"
+            i = 0
+            while i < event["number_of_groups"]:
+                for row in data:
+                    if event["group" + str(i)] != row[0]:
+                        continue
+                    else:
+                        addUserToGroup = ("INSERT INTO user_group_user "
+                                          "(user_id,user_group_id) "
+                                          "VALUES ('%s', '%s')")%(user_id, row[1])
+                        cursor.execute(addUserToGroup)
+                        cnx.commit()
+                i+=1
+            else:
+                return "The user is already existed"
     else:
         return "The email is not valid"
 
 
-
-
-main({'username': "s", 'first_name': "samar", 'last_name': "fares", 'email': "samar@sdjf.sdok",
-      'password': "samaroussama", 'is_group_admin': 0, 'type': 2}, "")
+main({'username': "suh", 'first_name': "samar", 'last_name': "fares", 'email': "samar@sdjf.sdok",
+      'password': "samaroussama", 'is_group_admin': 0, 'type': 2,'group0':"bla bla bla",'number_of_groups':1}, "")
