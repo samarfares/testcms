@@ -1,3 +1,4 @@
+import hashlib
 import re
 
 import config
@@ -31,7 +32,8 @@ def main(event, context):
                        "(username,first_name, last_name, email, password,is_group_admin,type) "
                        "VALUES (%s,%s, %s, %s, %s, %s,%s)")
 
-            userData = (event["username"], event["first_name"], event["last_name"], event["email"], event["password"],
+            userData = (event["username"], event["first_name"], event["last_name"], event["email"],hashlib.md5(event["password"].encode('utf8')).hexdigest()
+,
                         event["is_group_admin"], event["type"])
             cursor.execute(addUser, userData)
             cnx.commit()
@@ -59,5 +61,5 @@ def main(event, context):
         return "The email is not valid"
 
 
-main({'username': "suh", 'first_name': "samar", 'last_name': "fares", 'email': "samar@sdjf.sdok",
-      'password': "samaroussama", 'is_group_admin': 0, 'type': 2,'group0':"bla bla bla",'number_of_groups':1}, "")
+main({'username': "ossama", 'first_name': "samar", 'last_name': "fares", 'email': "samar@sdjf.sdok",
+      'password': "celine", 'is_group_admin': 0, 'type': 2,'group0':"bla bla bla",'number_of_groups':1}, "")
