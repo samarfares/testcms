@@ -13,21 +13,29 @@ def alreadyExists(name):
 
 def main(event, context):
     if "name" in event:
-        alreadyExist = alreadyExists(event["name"])
+        if event["name"] != "":
+            if all(x.isalpha() or x.isspace() or x.isdigit() for x in event["name"]):
 
-        if not alreadyExist:
-            addCouponGroup = ('INSERT INTO coupon_group '
-                              '(name)'
-                              'VALUES ("%s")') % event["name"]
+                alreadyExist = alreadyExists(event["name"])
 
-            cursor.execute(addCouponGroup)
-            cnx.commit()
+                if not alreadyExist:
+                    addCouponGroup = ('INSERT INTO coupon_group '
+                                      '(name)'
+                                      'VALUES ("%s")') % event["name"]
 
-            print("The coupon group is added")
+                    cursor.execute(addCouponGroup)
+                    cnx.commit()
+
+                    return "The coupon group is added"
+                else:
+                    return "The coupon group  is already existed"
+            else:
+                return "only alphabetic characters and digits are allowed"
+
         else:
-            print("The coupon group  is already existed")
+            return "The group name is required"
     else:
-        print("group name is required")
+        return "The group name is required"
 
 
 main(
