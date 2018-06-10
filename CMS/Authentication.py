@@ -29,4 +29,4 @@ def main(event, context):
             print("username and password are required")
 
 
-main({'username': "ossama", 'password': "celine"}, "")
+main({'usernam': "", 'password': "celine"}, "")
