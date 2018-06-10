@@ -11,18 +11,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="Authentication.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Authentication.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+=======
+      <file leaf-file-name="AddUser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AddUser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="21" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Authentication.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Authentication.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddCouponPool.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/AddCouponPool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="AddCouponGroup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AddCouponGroup.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,6 +67,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-end-line="47" />
+=======
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
             </state>
           </provider>
         </entry>
@@ -55,20 +95,22 @@
       <list>
         <option value="$PROJECT_DIR$/connection.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/AddUserGroup.py" />
         <option value="$PROJECT_DIR$/AddUser.py" />
         <option value="$PROJECT_DIR$/test_main.py" />
         <option value="$PROJECT_DIR$/Authentication.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/AddCategory.py" />
         <option value="$PROJECT_DIR$/AddCouponGroup.py" />
+=======
+        <option value="$PROJECT_DIR$/venv/AddCouponPool.py" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -96,8 +138,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="database&#9;null&#9;null" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Python/helloWorld" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -112,8 +153,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AddCategory">
-    <configuration name="AddCategory" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.AddCouponPool">
+    <configuration name="AddCouponPool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CMS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,29 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AddCategory.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="AddCouponGroup" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CMS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AddCouponGroup.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/AddCouponPool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +208,37 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="Authentication" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
+      <module name="CMS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Authentication.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+<<<<<<< HEAD
     <configuration name="Unittests in test_main.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
       <module name="CMS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,13 +247,24 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_main.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
     </configuration>
     <list>
       <item itemvalue="Python.AddUser" />
+      <item itemvalue="Python.connection" />
+      <item itemvalue="Python.config" />
       <item itemvalue="Python.Authentication" />
+<<<<<<< HEAD
       <item itemvalue="Python.AddCategory" />
       <item itemvalue="Python.AddCouponGroup" />
       <item itemvalue="Python tests.Unittests in test_main.py" />
@@ -208,10 +272,22 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.AddCategory" />
+=======
+      <item itemvalue="Python.AddCouponPool" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.AddCouponPool" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
         <item itemvalue="Python.Authentication" />
         <item itemvalue="Python tests.Unittests in test_main.py" />
         <item itemvalue="Python.AddCouponGroup" />
         <item itemvalue="Python.AddUser" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.connection" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
       </list>
     </recent_temporary>
   </component>
@@ -261,19 +337,28 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2280238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22734499" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31196582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" x="11" y="296" width="1513" height="231" id="Terminal" order="8" type="WINDOWED" weight="0.32905984" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+=======
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3291592" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36135957" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" x="0" y="11" width="1281" height="658" id="Terminal" order="8" type="WINDOWED" weight="0.32905984" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3703041" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -290,7 +375,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/config.py</url>
+          <url />
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -301,6 +386,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AddUser.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="867">
           <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
           <folding>
@@ -367,6 +453,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="77" column="105" selection-start-line="77" selection-start-column="105" selection-end-line="77" selection-end-column="105" />
+=======
+        <state relative-caret-position="1037">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="21" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -375,52 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Authentication.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddCouponGroup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddCategory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="18" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddUser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Authentication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -434,17 +480,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddCategory.py">
+    <entry file="file://$PROJECT_DIR$/venv/AddCouponPool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="1751">
+          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AddUser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+        <state relative-caret-position="680">
+          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -457,7 +509,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="136">
           <caret line="8" column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
@@ -465,10 +517,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddCategory.py">
+    <entry file="file://$PROJECT_DIR$/venv/AddCouponPool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="884">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddUser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="22" lean-forward="true" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -476,6 +558,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -504,6 +589,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/connection.py" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/mysql/connector/cursor_cext.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -542,6 +628,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-end-line="47" />
+=======
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
         </state>
       </provider>
     </entry>
@@ -554,30 +649,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AddUserGroup.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="17">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AddUser.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="181">
           <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+=======
+        <state relative-caret-position="1003">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Authentication.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/venv/AddCouponPool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+>>>>>>> 518e559a6de6dea849c7f0ef9f5ceb57720de4b7
           </folding>
         </state>
       </provider>
