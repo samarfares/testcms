@@ -12,6 +12,10 @@ def main(event, context):
     if any(v == "" for v in [event["name"], event["amount"]]) or any(v is None for v in [event["name"], event["amount"]]):
         return "All fields are required"
 
+    # check that the group isn't existed
+    if CheckExists.exists("user_group", "name", event["name"]):
+        return "This group is already existed"
+
     # check that the name is alphabet or numeric
     if not all(x.isalpha() or x.isspace() or x.isdigit() for x in event["name"]):
             return "Only alphabetic characters and digits are allowed"
@@ -104,6 +108,6 @@ def main(event, context):
         i += 1
     return"The user group is added successfully"
 
-print(main({'name': "", 'type': "user_level_number", 'amount': "60", 'number_of_coupon_groups': 1, 'group0': "Marketing",
+print(main({'name': "rg", 'type': "user_level_number", 'amount': "60", 'number_of_coupon_groups': 1, 'group0': "Marketing",
       'number_of_methods': 2, 'number_of_users': 1, 'method0': "online redeeming", 'method1': "exporting", 'user0': 1},
      ""))

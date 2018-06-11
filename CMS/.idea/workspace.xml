@@ -14,8 +14,8 @@
       <file leaf-file-name="AddUser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AddUser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="48">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -23,22 +23,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckExists.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/CheckExists.py">
+      <file leaf-file-name="Check.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/Check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="221">
+              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddUserGroup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddUserGroup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AddUserGroup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="122">
+              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +74,9 @@
         <option value="$PROJECT_DIR$/AddCouponGroup.py" />
         <option value="$PROJECT_DIR$/AddCategory.py" />
         <option value="$PROJECT_DIR$/Authentication.py" />
-        <option value="$PROJECT_DIR$/venv/CheckExists.py" />
         <option value="$PROJECT_DIR$/AddUserGroup.py" />
+        <option value="$PROJECT_DIR$/venv/CheckExists.py" />
+        <option value="$PROJECT_DIR$/venv/Check.py" />
       </list>
     </option>
   </component>
@@ -134,24 +147,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="AddCouponGroup" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CMS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AddCouponGroup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="AddUser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CMS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,20 +201,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="CheckExists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CMS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/CheckExists.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.AddUser" />
       <item itemvalue="Python.Authentication" />
       <item itemvalue="Python.AddCategory" />
-      <item itemvalue="Python.AddCouponGroup" />
       <item itemvalue="Python.AddUserGroup" />
+      <item itemvalue="Python.CheckExists" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.AddUserGroup" />
+        <item itemvalue="Python.CheckExists" />
         <item itemvalue="Python.Authentication" />
         <item itemvalue="Python.AddUser" />
         <item itemvalue="Python.AddCategory" />
-        <item itemvalue="Python.AddCouponGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -243,9 +256,10 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22767857" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18811882" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3630363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" x="11" y="296" width="1513" height="231" id="Terminal" order="8" type="WINDOWED" weight="0.32905984" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -264,7 +278,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" x="11" y="296" width="1513" height="231" id="Terminal" order="8" type="WINDOWED" weight="0.32905984" />
       <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
@@ -285,13 +298,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/tests/thirdparty/test_MySQLdb/dbapi20.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connection.py" />
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -631,6 +637,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/lib2to3/fixes/fix_print.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -641,33 +650,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/lib2to3/fixes/fix_print.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AddUser.py">
+    <entry file="file://$PROJECT_DIR$/AddUserGroup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="122">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/CheckExists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state>
+          <caret selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AddUserGroup.py">
+    <entry file="file://$PROJECT_DIR$/AddUser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="48">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
